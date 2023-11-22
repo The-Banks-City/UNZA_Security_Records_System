@@ -1,0 +1,28 @@
+CFREATE A DATABASE named UNZA and import the database in /data/DB/UNZA.sql ensure the root user has access to the database , the root user should not have a password set
+
+sunday ( 22 october)
+
+i have made the modifications to the files and all is working ok
+
+-----the next step is to ensure that the app searches the dataase befor it adds a new user 
+-----adding the new user interface
+-----adding a history page that eill be used to see the past comments made bby the investigator
+
+
+Monday 24 october
+-----i have modified the admin folder by renaming the php files
+-----added comments in some of the files
+-----add user pag is now working
+-----added search databse before adding new user
+-----removed history page as the investigator,admin will have access to all statements on the statement page
+-----added swarch by nrc
+-----added new row on user page to add titles
+-----added checking if age == 0 data validation
+
+28 October
+-----adding hasshing function in the add user and modify user files in order to encrypt the password and email of the users
+-----added function to encrypt user password when entering user and when logging in(remaining when modifying user)
+-----added an interface for the users table under admin
+-----added interface for admin index
+
+

@@ -1,0 +1,39 @@
+"use strict";
+//for first link
+const viewLink = document.querySelector(".title-potifolio");
+const openLink = document.querySelector(".link-potifolio");
+
+//for second link
+const viewLink2 = document.querySelector(".title-gallery");
+const openLink2 = document.querySelector(".link-gallery");
+
+//for third link
+const viewLink3 = document.querySelector(".title-uefa");
+const openLink3 = document.querySelector(".link-uefa");
+
+//for first link on page
+viewLink.addEventListener("click", function () {
+  if (!openLink.classList.contains("hidden", "potifolio")) {
+    openLink.classList.add("hidden", "potifolio");
+  } else {
+    openLink.classList.remove("hidden", "potifolio");
+  }
+});
+
+//for second link in page
+viewLink2.addEventListener("click", function () {
+  if (!openLink2.classList.contains("hidden", "potifolio")) {
+    openLink2.classList.add("hidden", "potifolio");
+  } else {
+    openLink2.classList.remove("hidden", "potifolio");
+  }
+});
+
+//for third link
+viewLink3.addEventListener("click", function () {
+  if (!openLink3.classList.contains("hidden", "potifolio")) {
+    openLink3.classList.add("hidden", "potifolio");
+  } else {
+    openLink3.classList.remove("hidden", "potifolio");
+  }
+});

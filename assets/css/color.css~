@@ -1,0 +1,217 @@
+/*welcome to website .page*/
+.navbar {
+  position: fixed;
+  background-color: #161925;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 90px;
+  overflow: hidden;
+}
+.menu > li {
+  display: inline;
+  float: right;
+  width: 90px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 3px;
+  border-radius: 4px;
+  color: #fdfffc;
+}
+.menu > li:hover {
+  border-bottom: 2px #fdfffc solid;
+  transition-property: border;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+  color: #fdfffc;
+  cursor: pointer;
+}
+.myworld {
+  margin: 45px auto;
+  width: 100%;
+  text-align: center;
+}
+.an-intr {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  line-height: 40px;
+  font-size: large;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: darkblue;
+}
+
+.web-col {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.page {
+  margin: 50px auto;
+  padding-top: 0%;
+  width: 40%;
+  background-color: black;
+  color: #fdfffc;
+  height: 40%;
+}
+.page > div > a > p {
+  text-decoration: none;
+  color: #fdfffc;
+}
+.page > div > a > img {
+  width: 90%;
+}
+.title {
+  line-height: 50px;
+  text-align: center;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #161925;
+}
+.title:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+.potifolio {
+  height: 37px;
+}
+.btn-close {
+  font-size: large;
+  color: blue;
+  background-color: #fdfffc;
+  border: #fdfffc solid;
+  border-radius: 2px;
+}
+
+/*gallery */
+html {
+  background-color: aliceblue;
+  background-position: 0px 0px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+body {
+  margin-left: 0;
+  margin-right: 0;
+}
+.begin {
+  color: white;
+  width: 50%;
+  margin: auto;
+  margin-top: 5px;
+  border: 2px solid orange;
+  text-align: center;
+  background-color: orange;
+}
+.begin:hover {
+  background: darkorange;
+}
+.content {
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  height: 90%;
+}
+img {
+  width: 800px;
+}
+.intro {
+  width: 90%;
+  margin: au999to;
+  padding: 4%;
+  padding-block: 20%;
+}
+h6 {
+  display: inline;
+  text-align: center;
+  padding: 4px;
+}
+.nav {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  height: 30px;
+}
+.page {
+  text-align: center;
+}
+.Prev {
+  margin-left: 5px;
+  color: Blue;
+  background-color: pink;
+}
+.Home {
+  background-color: lightblue;
+  margin-left: 5px;
+}
+.Next {
+  background-color: lightgreen;
+  width: 60px;
+  margin: 10px;
+}
+.welcome {
+  width: 60%;
+  margin: auto;
+  margin-top: 5px;
+  border: 2px solid green;
+  text-align: center;
+  background-color: green;
+  color: white;
+  height: 30px;
+  padding-block: 2%;
+  align: center;
+}
+
+/*   for the gallery website    */
+.gallery-page {
+  background-color: lightcyan;
+  border: 2px solid red;
+  width: 1180px;
+  margin: auto;
+  margin-top: 3px;
+  height: auto;
+  clear: both;
+  display: block;
+}
+.gallery-nav {
+  background-color: deepskyblue;
+  height: 100px;
+  width: 100%;
+}
+.gallery-hr {
+  color: red;
+  display: block;
+  clear: both;
+}
+.gallery-body > div {
+  /*this allows for the attributes mentioned to be applied to all direct children of the body element only*/
+  padding: 2px;
+  margin: auto;
+  height: auto;
+  width: 1100px;
+}
+.gallery-header {
+  background-color: deepskyblue;
+  color: midnightblue;
+}
+
+.gallery-body {
+  margin: auto;
+}
+
+.gallery-td {
+  background-color: lightcyan;
+  margin: 2px;
+  padding: 2px;
+  border: 2px solid red;
+}
+
+/*for demoslide show*/
