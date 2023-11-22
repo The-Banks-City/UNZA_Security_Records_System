@@ -16,7 +16,7 @@ Step six: take the folder to the path '/opt/lampp/htdocs/' in xampp folder
 
 Step seven: Run the path 'localhost/Name of the forlder' on your browser
 
-Step seven: login by the following accounts already created 
+Step eight: login by the following accounts already created 
 'username: admin1@email.com password:1234'
 'username: invest@email.com password:1234'
 'username: officer@email.com password:1234'
